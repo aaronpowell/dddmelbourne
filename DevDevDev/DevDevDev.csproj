@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -216,6 +217,7 @@
     </Content>
     <Content Include="Content\images\andrew.jpg" />
     <Content Include="Content\images\brendan.jpg" />
+    <Content Include="Content\images\sponsor-campaignmonitor.png" />
     <Content Include="Content\images\darrel.jpg" />
     <Content Include="Content\images\john.jpg" />
     <Content Include="Content\images\paul.jpeg" />
@@ -239,6 +241,7 @@
     <Content Include="Content\images\sponsor-seek.png" />
     <Content Include="Content\images\sponsor-seq.png" />
     <Content Include="Content\images\sponsor-ssw.png" />
+    <Content Include="Content\images\sponsor-xamconsulting.png" />
     <Content Include="Content\images\sponsor-xero-large.png" />
     <Content Include="Content\images\train.png" />
     <Content Include="Content\images\tram.png" />
