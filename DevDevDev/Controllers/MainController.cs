@@ -30,13 +30,13 @@ namespace DevDevDev.Controllers
             return View("Agenda");
         }*/
 
-        [HttpGet]
-        public ActionResult Submit()
-        {
-            var viewModel = new SessionSubmissionViewModel();
+        //[HttpGet]
+        //public ActionResult Submit()
+        //{
+        //    var viewModel = new SessionSubmissionViewModel();
 
-            return View(viewModel);
-        }
+        //    return View(viewModel);
+        //}
 
         [HttpGet]
         public ActionResult Yow()
@@ -46,39 +46,39 @@ namespace DevDevDev.Controllers
             return View(viewModel);
         }
 
-        [HttpPost]
-        [CaptchaVerify("Captcha is not valid")]
-        [Throttle(Name = "ThrottleSubmit", Message = "Request throttled", Seconds = 5)]
-        public ActionResult Submit(SessionSubmissionViewModel viewModel)
-        {
+        //[HttpPost]
+        //[CaptchaVerify("Captcha is not valid")]
+        //[Throttle(Name = "ThrottleSubmit", Message = "Request throttled", Seconds = 5)]
+        //public ActionResult Submit(SessionSubmissionViewModel viewModel)
+        //{
 
-            if (!TryValidateModel(viewModel))
-            {
-                return View(viewModel);
-            }
+        //    if (!TryValidateModel(viewModel))
+        //    {
+        //        return View(viewModel);
+        //    }
 
-            if (_sessionSubmissionService.AddSession(viewModel))
-            {
-                return RedirectToAction("SessionSubmittedSuccess");
-            }
+        //    if (_sessionSubmissionService.AddSession(viewModel))
+        //    {
+        //        return RedirectToAction("SessionSubmittedSuccess");
+        //    }
 
-            return RedirectToAction("SubmitError");
-        }
+        //    return RedirectToAction("SubmitError");
+        //}
 
         public ActionResult Register()
         {
             return new RedirectResult("https://www.eventbrite.com.au/e/ddd-sydney-tickets-24335111975");
         }
 
-        public ActionResult SessionSubmittedSuccess()
-        {
-            return View();
-        }
+        //public ActionResult SessionSubmittedSuccess()
+        //{
+        //    return View();
+        //}
 
-        public ActionResult SubmitError()
-        {
-            return View();
-        }
+        //public ActionResult SubmitError()
+        //{
+        //    return View();
+        //}
 
         [HttpGet]
         public ActionResult CodeOfConduct()
