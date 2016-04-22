@@ -65,10 +65,10 @@ namespace DevDevDev.Controllers
             return RedirectToAction("SubmitError");
         }
 
-        /*public ActionResult Register()
+        public ActionResult Register()
         {
-            return new RedirectResult("https://www.eventbrite.com.au/e/ddd-melbourne-6-2015-registration-16657196122/");
-        }*/
+            return new RedirectResult("https://www.eventbrite.com.au/e/ddd-sydney-tickets-24335111975");
+        }
 
         public ActionResult SessionSubmittedSuccess()
         {
