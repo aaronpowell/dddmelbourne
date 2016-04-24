@@ -7,11 +7,11 @@ using DevDevDev.Services;
 
 namespace DevDevDev.Controllers
 {
-    /*public class VotingController : Controller
+    public class VotingController : Controller
     {
         private readonly VoteService _voteService = new VoteService();
         private readonly SubmittedSessionsService _submittedSessionsService = new SubmittedSessionsService();
-        
+
         public ActionResult SessionsToVoteFor()
         {
             return View();
@@ -54,5 +54,5 @@ namespace DevDevDev.Controllers
         {
             return View();
         }
-    }*/
+    }
 }
