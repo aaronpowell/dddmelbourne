@@ -25,10 +25,10 @@ namespace DevDevDev.Controllers
             return View(model);
         }
 
-        /*public ActionResult Agenda()
+        public ActionResult Agenda()
         {
             return View("Agenda");
-        }*/
+        }
 
         //[HttpGet]
         //public ActionResult Submit()
