@@ -43,13 +43,13 @@
 
             <tr class="key-row">
                 <td class="time">09:00</td>
-                <td colspan="3" class="breadth session" data-session-id="keynote" ng-click="showSession('keynote')">
+                <td colspan="3" class="breadth session" data-session-id="keynote" ng-click="showSession(keynote)">
                     <strong>Keynote</strong><br />
                     <em>Udi Dahan</em>
                 </td>
             </tr>
 
-            <tr data-ng-repeat="timeslot in rawSessions.timeslots" data-ng-class="{ 'breadth-row': timeslot.break, 'presentation-row': !timeslot.break }">
+            <tr data-ng-repeat="timeslot in rawSessions.timeslots" data-ng-class="{ 'breadth-row': timeslot.break, 'presentation-row session': !timeslot.break }">
                 <td class="time">{{timeslot.time}}</td>
                 <td data-ng-if="timeslot.break" colspan="3">{{timeslot.title || 'Break'}}</td>
 
@@ -61,7 +61,7 @@
 
             <tr class="key-row">
                 <td class="time">16:30</td>
-                <td colspan="5" class="breadth session" data-session-id="locknote" ng-click="showSession('locknote')">
+                <td colspan="5" class="breadth session" data-session-id="locknote" ng-click="showSession(locknote)">
                     <strong>Locknote - Panel session</strong><br />
                     <em>John Allsopp, Richard Banks, more to come</em>
                 </td>
