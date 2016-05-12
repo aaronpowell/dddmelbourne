@@ -213,6 +213,15 @@ function agendaCtrl($scope) {
         ]
     };
 
+    $scope.keynote = {
+        "SessionTitle": "Integration lessons for the green-field developer",
+        "PresenterName": "Udi Dahan",
+        "SessionAbstract": "While many developers have had the “pleasure” of integrating with 3rd party systems and legacy applications, most don’t see the need to use those approaches when building new code. Unfortunately, it is that belief that undermines the success of many a green-field project resulting in a patch-work of batch jobs being added to try and compensate for the eventually *inconsistent* behavior of the system. Join Udi for a deep-dive into API design, integration patterns, and some good old message queues and see how you can avoid creating yet another big ball of mud.",
+        "PresenterBio": "Software Development Rocket Scientist Founder and CEO of NServiceBus",
+        "PresenterTwitterAlias": "UdiDahan",
+        "PresenterWebsite": "http://udidahan.com/"
+    };
+
     $scope.ShowDetail = false;
     $scope.SessionTitle = '';
     $scope.PresenterName = '';
