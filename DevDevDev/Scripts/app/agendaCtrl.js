@@ -119,14 +119,14 @@ function agendaCtrl($scope) {
                     },
                     {
                         "RowKey": "20312f80-bd26-4aa2-8c55-75a781613744",
-                        "SessionTitle": "PowerShell for Developers",
-                        "PresenterName": "Andrew Bowen",
-                        "SessionAbstract": "Are you sure looking for ways of working smarter, not harder?\r\n \r\nPowerShell can be incredibly helpful tool for developers, saving hours off repetitive tasks. It’s not just for the infrastructure team.\r\nThe talk will cover :\r\n- The fundamental concepts to get started\r\n- Tips on what to do when you get stuck\r\n- Collection of examples that can open your mind to new possibilities\r\n \r\nThis talk is for you if you've wanting to learn PowerShell, but don’t know where to get started, had difficulties in the past, or just don't know what it can be used for.\r\nThis will not be a deep technical dive.\r\n \r\nAt the end of this talk, you should understand why Microsoft had the audacity to put the word Power into PowerShell.",
-                        "PresenterEmail": "andrew.bowen@readify.net",
-                        "PresenterTwitterAlias": null,
-                        "RecommendedAudience": "Beginner to Intermediate developers. Basic knowledge of  .NET",
-                        "PresenterBio": "Senior Consultant at Readify.\r\nBeing fairly lazy, I'm always looking at automating tasks so that I can work on things that interest me.",
-                        "PresenterWebsite": "www.andrewjamesbowen.com/"
+                        "SessionTitle": "Web Components and modern web frameworks",
+                        "PresenterName": "Ahmad Atighechi",
+                        "SessionAbstract": "Web Components is an in progress standard, by which you can teach good old HTML new tricks. Four different building blocks define Web Components, HTML Templates, Custom Elements, HTML Imports and Shadow DOM.  Just like any other web standard different browsers implement the standard in different point of time, hence we polyfill to bridge today to the future. Since web components is future of web, different modern web framework/libraries take web components into consideration and provide some level of support for web components.\r\nIn this session we will review current state of Web Components standard, different browser's support and also current polyfill for web components. We will also review today's big modern web frameworks like Angular 2.0, React, EmberJS and Polymer to see how much support they provide for web components standard.",
+                        "PresenterEmail": "ara.mailbox@gmail.com",
+                        "PresenterTwitterAlias": "ahmad2x4",
+                        "RecommendedAudience": "HTML and Javascript",
+                        "PresenterBio": "Ahmad is a senior consultant at Readify, he has more than 16 years of experience working with different development stacks. He has developed a wide range of software including banking and financial systems. His passion is about ALM, Agile and Scrum and mostly spend his time coaching teams become more effective at delivering values.",
+                        "PresenterWebsite": "www.ahmadreza.com"
                     }
                 ]
             },
