@@ -223,13 +223,10 @@ function agendaCtrl($scope) {
     };
 
     $scope.locknote = {
-        "Session title": "Locknote Panel",
-
-
-
-
-
-
+        "PresenterName": "John Allsopp, Richard Banks, Fiona Chan and more to come",
+        "SessionTitle": "Locknote",
+        "SessionAbstract": "We've gathered a number of strong community members for you to ask questions of about tech, trends and anything else. Bring your questions!",
+    };
 
     $scope.ShowDetail = false;
     $scope.SessionTitle = '';
