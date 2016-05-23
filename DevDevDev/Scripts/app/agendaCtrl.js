@@ -46,7 +46,7 @@ function agendaCtrl($scope) {
                 ]
             },
             {
-                "time": "11:10",
+                "time": "11:00",
                 "break": true
             },
             {
@@ -88,12 +88,12 @@ function agendaCtrl($scope) {
                 ]
             },
             {
-                "time": "12:20",
+                "time": "12:10",
                 "break": true,
                 "title": "Lunch"
             },
             {
-                "time": "13:00",
+                "time": "13:10",
                 "sessions": [
                     {
                         "RowKey": "4a650045-2f77-4439-bf03-8009fb947444",
@@ -135,7 +135,7 @@ function agendaCtrl($scope) {
                 "break": true
             },
             {
-                "time": "14:15",
+                "time": "14:20",
                 "sessions": [
                     {
                         "RowKey": "6f34e04d-991c-44d7-8242-165848e796b1",
