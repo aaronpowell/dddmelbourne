@@ -222,6 +222,15 @@ function agendaCtrl($scope) {
         "PresenterWebsite": "http://udidahan.com/"
     };
 
+    $scope.locknote = {
+        "Session title": "Locknote Panel",
+
+
+
+
+
+
+
     $scope.ShowDetail = false;
     $scope.SessionTitle = '';
     $scope.PresenterName = '';
