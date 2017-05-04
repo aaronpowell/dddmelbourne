@@ -1,4 +1,4 @@
-﻿@using DevDevDev.Infrastructure
+﻿@using DevDevDev.Models
 @model DevDevDev.Models.SubmittedSessionsViewModel
 
 
@@ -8,44 +8,54 @@
         <h4>Sessions</h4>
     </div>
     <div class="small-12 columns">
-    
+
         <p>
             Below are the sessions submitted (@Model.Sessions.Count sessions so far)
         </p>
         <p>
         Note we manually approve all entries so dont worry if you have just submitted a session and it is not appearing yet:
         </p>
-    
+
         @foreach (var session in Model.Sessions)
         {
-            
-            <h5> @session.SessionTitle</h5> 
+
+            <h5> @session.SessionTitle</h5>
+
+            var random = new Random();
+
+            if (random.Next(0, 4) == 2)
+            {
+                @SessionName(session);
+            }
+
             <p>
-                @session.PresenterName   
-                
-                @if (!String.IsNullOrWhiteSpace(session.PresenterTwitterAlias))
-                {
-                     <a href="http://www.twitter.com/@session.PresenterTwitterAlias" target="_blank">@@@session.PresenterTwitterAlias</a>
-                }
-               
-                @if (!String.IsNullOrWhiteSpace(session.PresenterWebsite))
-                {
-                    <br/>
-                     <a href="http://@session.PresenterWebsite" target="_blank">@session.PresenterWebsite</a>
-                }
+                @Html.Raw(session.SessionAbstract)
             </p>
-            <p>
-           
-                 @Html.Raw(session.SessionAbstract)
-            </p>
-                  
+
             <hr/>
-                
+
         }
 
-   
-        
+
+
 
     </div>
-    
+
 </div>
+
+@helper SessionName(SessionSubmissionViewModel session) {
+    <p>
+        @session.PresenterName
+
+        @if (!String.IsNullOrWhiteSpace(session.PresenterTwitterAlias))
+        {
+             <a href="http://www.twitter.com/@session.PresenterTwitterAlias" target="_blank">@@@session.PresenterTwitterAlias</a>
+        }
+
+        @if (!String.IsNullOrWhiteSpace(session.PresenterWebsite))
+        {
+            <br/>
+             <a href="http://@session.PresenterWebsite" target="_blank">@session.PresenterWebsite</a>
+        }
+    </p>
+}
