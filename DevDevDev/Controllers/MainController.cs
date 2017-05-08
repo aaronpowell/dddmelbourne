@@ -17,7 +17,7 @@ namespace DevDevDev.Controllers
             return View();
         }
 
-        [OutputCache(Duration = 3600)]
+        //[OutputCache(Duration = 3600)]
         public ActionResult Sessions()
         {
             var model = _submittedSessionsService.GetSubmittedSessions();
