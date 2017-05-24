@@ -85,5 +85,11 @@ namespace DevDevDev.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public ActionResult UserGroups()
+        {
+            return View();
+        }
     }
 }

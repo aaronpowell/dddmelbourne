@@ -56,6 +56,12 @@ namespace DevDevDev
         );
 
             routes.MapRoute(
+             name: "user-groups",
+             url: "user-groups",
+             defaults: new { controller = "Main", action = "UserGroups", id = UrlParameter.Optional }
+         );
+
+            routes.MapRoute(
             name: "Default",
             url: "{controller}/{action}/{id}",
             defaults: new { controller = "Main", action = "Index", id = UrlParameter.Optional }
