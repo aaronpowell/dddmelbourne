@@ -3,23 +3,23 @@
 
 
 
-<div id="config" 
-    data-sessions-url="@Url.Action("GetSessionsAsJson")" 
+<div id="config"
+    data-sessions-url="@Url.Action("GetSessionsAsJson")"
     data-submit-votes-url="@Url.Action("SubmitVote")"
     data-voted-successfully-url="@Url.Action("VotedSuccessfully")"
     data-voted-failure-url="@Url.Action("VotingFailure")"
     class="copy-block row" ng-app="ddd">
-    
+
     <div class="large-12 columns">
         <h4>Vote for Sessions</h4>
     </div>
-    
+
 
     <div class="small-12 columns" ng-controller="votingCtrl">
-    
+
         <p>
-           <strong>For your convenience voting is not restricted & we dont require registration but we can still see cheaters!</strong> 
-        </p> 
+           <strong>For your convenience voting is not restricted & we dont require registration but we can still see cheaters!</strong>
+        </p>
 
         <p ng-cloak>
             Please select the {{viewModel.MaxNumberOfVotes}} sessions you most want to see and then click the Submit Votes button to submit your choices.
@@ -37,7 +37,7 @@
         </div>
 
         <section ng-show="sessionsLoaded == false">
-          
+
             <style>
                 @@-webkit-keyframes rotate {
               from {
@@ -46,7 +46,7 @@
               to {
                 -webkit-transform: rotate(359deg);
               }
-   
+
             }
             .spin-lars {
               margin-left: 100px;
@@ -72,7 +72,7 @@
                 <h5><a ng-click="session.ShowDescription=!session.ShowDescription" href="javascript:void(null);" title="Toggle session description">{{session.SessionTitle}}</a></h5>
 
                 <div ng-show="showFull || session.ShowDescription">
-                    <p>
+                    @*<p>
                         {{session.PresenterName}}
 
                         <a href="http://www.twitter.com/{{session.PresenterTwitterAlias}}">{{session.PresenterTwitterAlias}}</a>
@@ -80,7 +80,7 @@
                         <br />
                         <a href="{{'http://' + session.PresenterWebsite}}">{{session.PresenterWebsite}}</a>
 
-                    </p>
+                    </p>*@
 
                     <p ng-bind-html-unsafe="session.SessionAbstract"></p>
                 </div>
@@ -93,12 +93,12 @@
         </section>
 
     </div>
-    
+
 </div>
 
 @section optionalScripts
 {
     @Scripts.Render("~/bundles/angular")
-  
+
     <script src="~/Scripts/app/votingCtrl.js"></script>
 }
