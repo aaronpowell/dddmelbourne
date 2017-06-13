@@ -274,6 +274,7 @@
     <Content Include="Content\images\sponsor-cba.png" />
     <Content Include="Content\images\sponsor-gooroo.png" />
     <Content Include="Content\images\sponsor-msft.png" />
+    <Content Include="Content\images\sponsor-octopus-deploy.png" />
     <Content Include="Content\images\sponsor-pageup.png" />
     <Content Include="Content\images\sponsor-pan.png" />
     <Content Include="Content\images\sponsor-aspose.png" />

@@ -617,3 +617,6 @@ div.votes-remaining div button {
 .faq p {
   overflow: hidden;
 }
+.copy-block.sponsor {
+    padding-bottom: 0px;
+}
