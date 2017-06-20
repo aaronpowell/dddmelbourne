@@ -155,8 +155,8 @@ function agendaCtrl($scope) {
                         "SessionAbstract": "Modern DevOps is a highway to greater business value and it works cross-platform. Automated deployments solved a handover problem, Application Monitoring Platforms closed the feedback and crash reporting gap, and containers made the \"works on my machine\" stereotype real. Next mission: automated environments.",
                         "PresenterEmail": "danijelmalik@ssw.com.au",
                         "PresenterTwitterAlias": "danijelmalik",
-                        "RecommendedAudience": "",
-                        "PresenterBio": "",
+                        "RecommendedAudience": "Anyone with some basic understanding of DevOps",
+                        "PresenterBio": "Danijel is a DevOps mastermind with a broad range of technical skills and a deep desire to understand the client's business first. In his career, which includes more than 10 years of professional experience, he has built Desktop, Mobile & Web projects, many of them at the Enterprise level. With an eye on the bleeding edge technologies, he is always one step ahead and loves sharing his experience at user groups and conferences. In 2013, Danijel was awarded Microsoft MVP status for Visual Studio ALM (now Visual Studio and Development Technologies) for his contributions to the community, which he has maintained every year since.",
                         "PresenterWebsite": "danijelmalik.com"
                     },
                     {
