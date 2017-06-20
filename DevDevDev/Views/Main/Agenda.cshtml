@@ -44,8 +44,8 @@
             <tr class="key-row">
                 <td class="time">09:00</td>
                 <td colspan="3" class="breadth session" data-session-id="keynote" ng-click="showSession(keynote)">
-                    <strong>Keynote - Integration lessons for the green-field developer</strong><br />
-                    <em>Udi Dahan</em>
+                    <strong>Keynote - {{keynote.SessionTitle}}</strong><br />
+                    <em>{{keynote.PresenterName}}</em>
                 </td>
             </tr>
 
@@ -62,8 +62,8 @@
             <tr class="key-row">
                 <td class="time">16:20 - 17:00</td>
                 <td colspan="5" class="breadth session" data-session-id="locknote" ng-click="showSession(locknote)">
-                    <strong>Locknote - Panel session</strong><br />
-                    <em>John Allsopp, Richard Banks, Fiona Chan and more to come</em>
+                    <strong>Locknote - {{locknote.SessionTitle}}</strong><br />
+                    <em>{{locknote.PresenterName}}</em>
                 </td>
             </tr>
 
@@ -77,7 +77,7 @@
             <tr class="breadth-row">
                 <td class="time">18:00</td>
                 <td colspan="5" class="breadth">
-                    Afterparty at the <a href="http://www.lordgladstone.com.au/">Lord Gladstone</a> in the Goodspace Gallery.
+                    Afterparty (Location to be determined).
                 </td>
             </tr>
         </tbody>

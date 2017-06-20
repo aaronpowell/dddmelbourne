@@ -17,7 +17,7 @@ namespace DevDevDev.Controllers
             return View();
         }
 
-        //[OutputCache(Duration = 3600)]
+        [OutputCache(Duration = 3600)]
         public ActionResult Sessions()
         {
             var model = _submittedSessionsService.GetSubmittedSessions();
@@ -25,10 +25,10 @@ namespace DevDevDev.Controllers
             return View(model);
         }
 
-        //public ActionResult Agenda()
-        //{
-        //    return View("Agenda");
-        //}
+        public ActionResult Agenda()
+        {
+            return View("Agenda");
+        }
 
         //[HttpGet]
         //public ActionResult Submit()
