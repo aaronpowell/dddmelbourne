@@ -113,8 +113,8 @@ function agendaCtrl($scope) {
                         "SessionAbstract": "The Windows platform is welcoming in a new era of innovation as it takes on a new design philosophy. Fluent Design is based on the building blocks of Light, Depth, Motion, Material and Scale, and with it applications built for the Windows platform will appear richer and more intuitive to use than ever before.",
                         "PresenterEmail": "nick@builttoroam.com",
                         "PresenterTwitterAlias": "thenickrandolph",
-                        "RecommendedAudience": "",
-                        "PresenterBio": "",
+                        "RecommendedAudience": "This is an overview session covering the fundamentals of Fluent Design as it applies to the UWP platform. Prior knowledge of the UWP platform, or other XAML based technology (eg Silverlight/WPF), is useful. Samples and Demos will use a mix of XAML and C# code.",
+                        "PresenterBio": "Nick currently runs Built to Roam which focuses on building rich mobile applications. Nick has been identified as a Microsoft MVP in recognition of his work and expertise with the Microsoft mobile platforms. He is still an active contributor in the device application development space via his blog at http://nicksnettravels.builttoroam.com and Visual Studio Magazine (http://visualstudiomagazine.com/Articles/List/Mobile-Corner.aspx). Nick has been invited to present at a variety of events including Tech Ed and Ignite Australia & NZ, DDD and local user groups. He has also authored multiple books with the latest being Professional Visual Studio 2010 and Professional Development for Windows Phone, and helped judge multiple world finals for the Imagine Cup. Nick has worked on numerous mobile applications and has helped hundreds of developers build their own mobile applications. Nick has been involved with applications for well-known brands such as Domain.com.au, ninemsn, AFL, NRL, Qantas, JB Hi-Fi, NAB, Stan and Boost Juice",
                         "PresenterWebsite": "nicksnettravels.builttoroam.com"
                     },
                     {
