@@ -91,5 +91,11 @@ namespace DevDevDev.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public ActionResult Bot()
+        {
+            return View();
+        }
     }
 }
