@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <ApplicationInsightsResourceId>/subscriptions/a3905746-7bb3-45cb-b82b-a582416c5639/resourcegroups/DevDevDev/providers/microsoft.insights/components/DevDevDev</ApplicationInsightsResourceId>
     <ApplicationInsightsAnnotationResourceId>/subscriptions/a3905746-7bb3-45cb-b82b-a582416c5639/resourcegroups/DevDevDev/providers/microsoft.insights/components/DevDevDev</ApplicationInsightsAnnotationResourceId>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -267,6 +268,7 @@
     </Content>
     <Content Include="Content\images\andrew.jpg" />
     <Content Include="Content\images\brendan.jpg" />
+    <Content Include="Content\images\sponsor-auth0.png" />
     <Content Include="Content\images\sponsor-campaignmonitor.png" />
     <Content Include="Content\images\darrel.jpg" />
     <Content Include="Content\images\john.jpg" />
